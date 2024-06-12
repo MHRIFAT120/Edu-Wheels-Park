@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booking"
+    android:orientation="vertical"
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        app:lottie_rawRes="@raw/home"
+        app:lottie_autoPlay="true"
+       android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        app:lottie_loop="true"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parking  Details"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textColor="#880808"
+
+        />
+
+   <!-- __________Name_____________ -->
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:neumorph_shapeType="basin"
+        >
+        <EditText
+            android:id="@+id/edName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Name"
+            android:layout_marginLeft="20dp"
+            android:background="#08F4EFEF"
+            android:inputType="textPersonName"
+
+
+            />
+    </soup.neumorphism.NeumorphCardView>
+
+    <!-- _________Student ID_____________ -->
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:neumorph_shapeType="basin"
+        >
+        <EditText
+            android:id="@+id/edStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Student Id"
+            android:layout_marginLeft="20dp"
+            android:background="#08F4EFEF"
+            android:inputType="number"
+            />
+    </soup.neumorphism.NeumorphCardView>
+
+
+    <!-- __________Email_____________ -->
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:neumorph_shapeType="basin"
+        >
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Email"
+            android:layout_marginLeft="20dp"
+            android:background="#08F4EFEF"
+            android:inputType="textEmailAddress"
+
+            />
+    </soup.neumorphism.NeumorphCardView>
+
+
+    <!-- __________Mobile_____________ -->
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:neumorph_shapeType="basin"
+        >
+        <EditText
+            android:id="@+id/edMobile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Mobile"
+            android:background="#08F4EFEF"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+            />
+    </soup.neumorphism.NeumorphCardView>
+
+
+    <!-- _________Vechiles Number_____________ -->
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:neumorph_shapeType="basin"
+
+        >
+        <EditText
+            android:id="@+id/edVechilesNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Vechiles Number"
+            android:layout_marginLeft="20dp"
+            android:background="#08F4EFEF"
+            />
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+android:layout_marginRight="10dp"
+        >
+      <!--  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:scaleY="1.5dp"
+            android:textStyle="bold"
+            android:text="Arrival Time"
+            android:gravity="center"
+            android:padding="20dp"
+            08F4EFEF
+            />-->
+
+
+
+
+
+
+<soup.neumorphism.NeumorphTextView
+    style="@style/Widget.Neumorph.TextView"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    app:neumorph_shapeType="basin"
+    android:text="Arrival Time :"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"
+    android:textAlignment="center"
+
+    >
+
+
+
+</soup.neumorphism.NeumorphTextView>
+
+
+
+        <!-- _________From_____________ -->
+        <soup.neumorphism.NeumorphCardView
+
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:neumorph_shapeType="basin">
+
+            <EditText
+                android:id="@+id/edStart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="#08F4EFEF"
+                android:hint="start" />
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <!-- _________To_____________ -->
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:neumorph_shapeType="basin">
+
+            <EditText
+                android:id="@+id/edEnd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="#08F4EFEF"
+                android:hint="end" />
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <!-- _________Time_____________ -->
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:neumorph_shapeType="basin"
+
+            >
+
+            <EditText
+                android:id="@+id/edTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="#08F4EFEF"
+                android:hint="am/pm" />
+        </soup.neumorphism.NeumorphCardView>
+
+
+    </LinearLayout>
+
+
+    <!-- _________Button____________ -->
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/submit"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:text="Submit"
+        android:layout_marginBottom="60dp">
+
+
+    </soup.neumorphism.NeumorphButton>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7390032725394924/6183320264">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

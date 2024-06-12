@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1983494187",
+    "project_id": "woven-acolyte-395606",
+    "storage_bucket": "woven-acolyte-395606.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1983494187:android:34abfec43a67805151d26e",
+        "android_client_info": {
+          "package_name": "com.rifat.eduwheelspark"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv-f7Ot88eEZ7aUY_RWBME1BVL-DK5X4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

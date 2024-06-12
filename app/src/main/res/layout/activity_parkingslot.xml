@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Parkingslot"
+    android:orientation="vertical"
+    android:background="#DEE4A4"
+>
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FACULTY :"
+            android:layout_marginLeft="18dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_margin="18dp"
+            />
+
+  //-----------------------------------------
+  //----------------------------------------
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="3"
+       >
+
+       <soup.neumorphism.NeumorphCardView
+           style="@style/Widget.Neumorph.CardView"
+           android:layout_width="130dp"
+           android:layout_height="150dp"
+           app:neumorph_shapeType="basin"
+           app:neumorph_shadowColorDark="#ffffff"
+           app:neumorph_shadowColorLight="#D0B5D5E4"
+        android:clickable="true"
+           >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              >
+
+              <TextView
+                  android:id="@+id/slotA1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Slot A-1"
+                  android:gravity="center"
+                  android:layout_marginTop="50dp"
+                  android:textSize="24dp"
+
+                  />
+
+
+          </LinearLayout>
+       </soup.neumorphism.NeumorphCardView>
+
+       <soup.neumorphism.NeumorphCardView
+           style="@style/Widget.Neumorph.CardView"
+           android:layout_width="130dp"
+           android:layout_height="150dp"
+           app:neumorph_shapeType="basin"
+           app:neumorph_shadowColorDark="#ffffff"
+           app:neumorph_shadowColorLight="#D0B5D5E4"
+           android:clickable="true"
+           >
+           <TextView
+               android:id="@+id/slotA2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Slot A-2"
+               android:gravity="center"
+               android:layout_marginTop="50dp"
+               android:textSize="24dp"
+               />
+       </soup.neumorphism.NeumorphCardView>
+
+       <soup.neumorphism.NeumorphCardView
+           style="@style/Widget.Neumorph.CardView"
+           android:layout_width="130dp"
+           android:layout_height="150dp"
+           app:neumorph_shapeType="basin"
+           app:neumorph_shadowColorDark="#ffffff"
+           app:neumorph_shadowColorLight="#D0B5D5E4"
+           android:clickable="true"
+           >
+           <TextView
+               android:id="@+id/slotA3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Slot A-3"
+               android:gravity="center"
+               android:layout_marginTop="50dp"
+               android:textSize="25dp"
+               />
+       </soup.neumorphism.NeumorphCardView>
+
+
+   </LinearLayout>
+
+
+
+    //---------------------------------------------------
+
+
+
+    //---------------------------------------------------
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            app:neumorph_shapeType="basin"
+            app:neumorph_shadowColorDark="#ffffff"
+            app:neumorph_shadowColorLight="#D0B5D5E4"
+            android:clickable="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/slotA4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot A-4"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+
+                    />
+
+
+            </LinearLayout>
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            app:neumorph_shapeType="basin"
+            app:neumorph_shadowColorDark="#ffffff"
+            app:neumorph_shadowColorLight="#D0B5D5E4"
+            android:clickable="true"
+            >
+            <TextView
+                android:id="@+id/slotA5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Slot A-5"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:textSize="24dp"
+                />
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            app:neumorph_shapeType="basin"
+            app:neumorph_shadowColorDark="#ffffff "
+            app:neumorph_shadowColorLight="#D0B5D5E4"
+            android:clickable="true"
+            >
+            <TextView
+                android:id="@+id/slotA6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Slot A-6"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:textSize="25dp"
+                />
+        </soup.neumorphism.NeumorphCardView>
+
+
+    </LinearLayout>
+
+    //--------------------------------------
+
+
+     //--------------------------------------
+
+
+        //---------------------------------------------------
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/slotA7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Slot A-7"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textSize="25dp"
+
+                        />
+
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotA8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot A-8"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff "
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotA9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot A-9"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        //--------------------------------------
+
+
+        <!--========== CAR PARKING SLOT START ================================-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAR  "
+            android:layout_marginLeft="18dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_margin="18dp"
+            />
+        //--------------------------------------
+
+        //---------------------------------------------------
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/slotB1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Slot B-1"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textSize="25dp"
+
+                        />
+
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotB2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot B-2"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff "
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotB3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot B-3"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        //--------------------------------------
+
+
+        //--------------------------------------
+        //--------------------------------------
+
+        //---------------------------------------------------
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/slotB4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Slot B-4"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textSize="25dp"
+
+                        />
+
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotB5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot B-5"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff "
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotB6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot B-6"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        //--------------------------------------
+
+
+
+        //---------------------------------------------------
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/slotB7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Slot B-7"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textSize="25dp"
+
+                        />
+
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotB8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot B-8"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff "
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotB9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot B-9"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        //--------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--========== BUS  PARKING SLOT START ================================-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUS  "
+            android:layout_marginLeft="18dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_margin="18dp"
+            />
+        //--------------------------------------
+
+        //---------------------------------------------------
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/slotC1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Slot C-1"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textSize="25dp"
+
+                        />
+
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotC2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot C-2"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff "
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotC3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot C-3"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        //--------------------------------------
+
+
+        //--------------------------------------
+        //--------------------------------------
+
+        //---------------------------------------------------
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/slotC4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Slot C-4"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textSize="25dp"
+
+                        />
+
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotC5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot C-5"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff "
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotC6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot C-6"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        //--------------------------------------
+
+
+
+        //---------------------------------------------------
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/slotC7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Slot C-7"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textSize="25dp"
+
+                        />
+
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotC8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot C-8"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff "
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotC9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot C-9"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        //--------------------------------------
+
+
+
+
+
+
+
+
+        <!--========== BIKE  PARKING SLOT START ================================-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BIKE  "
+            android:layout_marginLeft="18dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_margin="18dp"
+            />
+        //--------------------------------------
+
+        //---------------------------------------------------
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/slotD1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Slot D-1"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textSize="25dp"
+
+                        />
+
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotD2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot D-2"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff "
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotD3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot D-3"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        //--------------------------------------
+
+
+        //--------------------------------------
+        //--------------------------------------
+
+        //---------------------------------------------------
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/slotD4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Slot D-4"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textSize="25dp"
+
+                        />
+
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotD5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot D-5"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff "
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotD6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot D-6"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        //--------------------------------------
+
+
+
+        //---------------------------------------------------
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/slotD7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Slot D-7"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textSize="25dp"
+
+                        />
+
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff"
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotD8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot D-8"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                app:neumorph_shapeType="basin"
+                app:neumorph_shadowColorDark="#ffffff "
+                app:neumorph_shadowColorLight="#D0B5D5E4"
+                android:clickable="true"
+                >
+                <TextView
+                    android:id="@+id/slotD9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Slot D-9"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:textSize="25dp"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        //--------------------------------------
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7390032725394924/6183320264">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
